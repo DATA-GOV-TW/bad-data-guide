@@ -25,6 +25,7 @@ You cannot possibly review every dataset you encounter for all of these problems
 想要翻譯您的語言的版本嗎？直接做就對了！ 翻譯完後可寄信到 [Chris](mailto:c@qz.com) 讓我把他加入這份手冊內。
 
 ![](http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/uploads/2014/11/bad-data1-780x448.png)
+
 img from [Data: It's all about the quality](http://venturebeat.com/2014/11/05/data-its-all-about-the-quality/)
 
 # 目錄
