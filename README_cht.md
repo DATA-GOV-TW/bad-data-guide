@@ -6,13 +6,13 @@
 
 As a reporter your world is full of data. And those data are full of problems. This guide presents thorough descriptions and suggested solutions to many of the kinds of problems that you will encounter when working with data.
 
-Most of these problems can be solved. Some of them can't be solved and that means you should not use the data. Others can't be solved, but with precautions you can continue using the data. In order to allow for these ambiguities, this guide is organized by who is best equipped to solve the problem: you, your source, an expert, etc. In the description of each problem you may also find suggestions for what to do if that person can't help you.
+這邊列出的絕大部分問題都可被解決。少部分可能無法被解決，而這意味著你該避免使用這些資料。有些資料的問題可能無法被解決，但是小心謹慎處理下，或許你還是可以用這些資料。In order to allow for these ambiguities, this guide is organized by who is best equipped to solve the problem: 你自己，資料來源端，第三方專家等等。在每一個問題的描述中，如果相關的對象無法協助你處理這些問題，我們也會試著給些可能的建議。
 
 You cannot possibly review every dataset you encounter for all of these problems. If you try to do that you will never get anything published. However, by familiarizing yourself with the kinds of issues you are likely to encounter you will have a better chance of identifying an issue before it causes you to make a mistake.
 
-If you have questions about this guide please email [Chris](mailto:c@qz.com). Good luck!
+如果您對這本手冊有任何問題，請寫信至 [Chris](mailto:c@qz.com)。Good luck!
 
-This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 International License](http://creativecommons.org/licenses/by-nc/4.0/). Send your pull requests!
+這本手冊採用 [Creative Commons Attribution-NonCommercial 4.0 International License - 姓名標示-非商業性 4.0 國際](https://creativecommons.org/licenses/by-nc/4.0/deed.zh_TW) 授權規範。歡迎提出修改 pull requests!
 
 # Translations
 
@@ -22,7 +22,10 @@ This work is licensed under a [Creative Commons Attribution-NonCommercial 4.0 In
 * [Portuguese](http://escoladedados.org/2016/09/08/guia-quartz-para-limpeza-de-dados/)
 * [Spanish](http://es.schoolofdata.org/guia-quartz/)
 
-Want to translate this guide into your language? Go ahead! Email [Chris](mailto:c@qz.com) to have your translation added here.
+想要翻譯您的語言的版本嗎？直接做就對了！ 翻譯完後可寄信到 [Chris](mailto:c@qz.com) 讓我把他加入這份手冊內。
+
+![](http://1u88jj3r4db2x4txp44yqfj1.wpengine.netdna-cdn.com/wp-content/uploads/2014/11/bad-data1-780x448.png)
+img from [Data: It's all about the quality](http://venturebeat.com/2014/11/05/data-its-all-about-the-quality/)
 
 # 目錄
 
@@ -390,7 +393,7 @@ Sometimes the only data you have are from a source you would rather not rely on.
 
 ### Collection process is opaque
 
-It's very easy for false assumptions, errors or outright falsehoods to be introduced into these data collection processes. For this reason it's important that methods used be transparent. It's rare that you'll know exactly how a dataset was gathered, but indications of a problem can include numbers that [assert unrealistic precision](#data-asserts-unrealistic-precision) and data that [are 完美的跟真的一樣](#too-good-to-be-true).
+It's very easy for false assumptions, errors or outright falsehoods to be introduced into these data collection processes. For this reason it's important that methods used be transparent. It's rare that you'll know exactly how a dataset was gathered, but indications of a problem can include numbers that [assert unrealistic precision](#data-asserts-unrealistic-precision) and data that are [完美的跟真的一樣](#too-good-to-be-true).
 
 Sometimes the origin story may just be fishy: did such-and-such academic really interview 50 active gang members from the south side of Chicago? If the way the data were gathered seems questionable and your source can't offer you [ironclad provenance](#provenance-is-not-documented) then you should always verify with another expert that the data could reasonably have been collected in the way that was described.
 
